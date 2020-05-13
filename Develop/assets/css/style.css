@@ -5,6 +5,7 @@
     margin: 0;
 }
 
+/* links */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -19,6 +20,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,7 +44,7 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* Link styles in Nav bar */
+/* Nav bar link separation */
 nav a {
     padding-left: 25px;
 }
@@ -57,12 +59,6 @@ nav a {
     background-position: center;
 }
 
-/* TODO merge with online reputation management ID */
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 /* Main content */
 section {
     width: 75%;
@@ -70,7 +66,7 @@ section {
     margin-left: 20px;
 }
 
-section div {
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -79,9 +75,9 @@ section div {
     color: #ffffff;
 }
 
-section h2 {
+article h2 {
     margin-bottom: 20px;
-    font-size: 36px
+    font-size: 36px;
 }
 
 #search-engine-optimization img {
@@ -93,7 +89,7 @@ section h2 {
 #online-reputation-management img {
     max-height: 200px;
     float: right;
-    margin-left: 25px
+    margin-left: 25px;
 }
 
 #social-media-marketing img {
@@ -102,83 +98,42 @@ section h2 {
     margin-right: 25px;
 }
 
-.benefits {
+/* Aside Benefits */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+aside div {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+aside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.footer {
+/* Footer */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h4 {
     font-size: 20px;
 }
