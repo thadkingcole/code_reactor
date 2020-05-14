@@ -69,7 +69,7 @@ Heading elements were reassigned to a sequential order to help differentiate hea
 ## Maintain Page Layout/Design
 With all the changes being made to the code, it was important to ensure that the page looked identical to when I started since the design/layout of the page was not considered to need any changes. 
 
-To see for yourself, commare the look of the current index.html to the one in this [commit](#14b8de5991763d99112d8791d4bb5f00d8a7f412)
+To see for yourself, commare the look of the current index.html to the one listed earliest in its history.
 
 [task list](#required-tasks)
 <hr>
