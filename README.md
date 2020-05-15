@@ -42,6 +42,9 @@ Since HTML semantic tags were chosen to be used, I implemented them with the fol
 |      photo      |
 | --------------- |
 | section | aside |
+| article |       |
+| article |       |
+| article |       |
 | --------------- |
 |      footer     |
 ```
