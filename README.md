@@ -15,8 +15,8 @@ You can see the webpage I have edited [here](https://thadkingcole.github.io/code
 - [x] [added comments to HTML and CSS files](#comments)
 - [x] [fixed broken links](#links)
 - [x] [consolidated some CSS styling where appropriate](#CSS-consolidation)
-- [ ] create and edit a high quality readme.md for this project
-- [ ] [Make HTML & CSS files w3 style compliant](#style-compliant)
+- [x] create and edit a high quality readme.md for this project
+- [x] [Make HTML & CSS files w3 style compliant](#style-compliant)
 
 
 
