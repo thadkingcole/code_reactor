@@ -14,7 +14,7 @@ You can see the webpage I have edited [here](https://thadkingcole.github.io/code
 - [x] [maintained the page layout/design the same throughout](#maintain-page-layout/design)
 - [x] [added comments to HTML and CSS files](#comments)
 - [x] [fixed broken links](#links)
-- [ ] [consolidated some CSS styling where appropriate](#CSS-consolidation)
+- [x] [consolidated some CSS styling where appropriate](#CSS-consolidation)
 - [ ] create and edit a high quality readme.md for this project
 - [ ] [Make HTML & CSS files w3 style compliant](#style-compliant)
 
@@ -42,9 +42,9 @@ Since HTML semantic tags were chosen to be used, I implemented them with the fol
 |      photo      |
 | --------------- |
 | section | aside |
-| article |       |
-| article |       |
-| article |       |
+| article |  div  |
+| article |  div  |
+| article |  div  |
 | --------------- |
 |      footer     |
 ```
@@ -101,14 +101,15 @@ One of the links in the nav bar at the top right of the page was broken when I s
 ---
 
 ## CSS Consolidation
-There were a number of repeated stylings and a number of extra IDs/classes that were broken down to smaller than necessary elements. IDs/classes that could be better grouped were combined, and repeated stylings were combined where it made since. Overall, the CSS file was reduced from 200 lines to 139!
+There were a number of repeated stylings and a number of extra IDs/classes that were broken down to smaller than necessary elements. IDs/classes that could be better grouped were combined, and repeated stylings were combined where it made since. Overall, the CSS file was reduced from 200 lines to 150!
 
 [task list](#required-tasks)
 
 ---
 
 ## Style Compliant
-Although not required to edit how a webpage looks, it is important to follow industry standard style guides since it is likely that I will not be the only one to look at my code. To accomplish this goal for this project, I changed the following:
-- [ ] change indent size from 4 spaces to 2 spaces on both HTML and CSS files.
+Although not required to edit how a webpage looks, it is important to follow industry standard style guides since it is likely that I will not be the only one to look at my code. For this project, I followed the [w3schools style guide](#https://www.w3schools.com/html/html5_syntax.asp). The given HTML and CSS files were already mostly compliant, but the following changes were made to improve style compliance:
+- [x] change indent size from 4 spaces to 2 spaces on both HTML and CSS files.
+- [x] set the viewport 
 
 [task list](#required-tasks)
