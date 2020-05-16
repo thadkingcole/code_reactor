@@ -15,8 +15,8 @@ You can see the webpage I have edited [here](https://thadkingcole.github.io/code
 - [x] [added comments to HTML and CSS files](#comments)
 - [x] [fixed broken links](#links)
 - [x] [consolidated some CSS styling where appropriate](#CSS-consolidation)
-- [x] create and edit a high quality readme.md for this project
-- [x] [Make HTML & CSS files w3 style compliant](#style-compliant)
+- [x] create and edit a high quality readme.md for this project 
+- [x] [Make HTML & CSS files w3 style compliant](#style-compliance)
 
 
 
@@ -39,7 +39,9 @@ Since HTML semantic tags were chosen to be used, I implemented them with the fol
 ```
 | header  |   nav |
 | --------------- |
+|                 |
 |      photo      |
+|                 |
 | --------------- |
 | section | aside |
 | article |  div  |
@@ -71,7 +73,7 @@ Heading elements were reassigned to a sequential order to help differentiate hea
 ---
 
 ## Page Title
-"HoriSEOn Marketing" was chosen as the title for the page. This title is visible on the tab of the page.
+"HoriSEOn Social Solution Services, Inc." was chosen as the title for the page. This title is visible on the tab of the page.
 
 [task list](#required-tasks)
 
@@ -96,6 +98,8 @@ HTML and CSS files both had no comments when I started. In HTML, I added comment
 ## Links
 One of the links in the nav bar at the top right of the page was broken when I started. This was due to all the links referencing  IDs of the same name, and in one case that id did not exist. That ID was added to the appropriate place in the page so that the broken link now works.
 
+I also added styling to the links so that they are underlined when a user hovers over the links. This addition makes the links stand out more without affecting the overall look of the webpage.
+
 [task list](#required-tasks)
 
 ---
@@ -107,7 +111,7 @@ There were a number of repeated stylings and a number of extra IDs/classes that 
 
 ---
 
-## Style Compliant
+## Style Compliance
 Although not required to edit how a webpage looks, it is important to follow industry standard style guides since it is likely that I will not be the only one to look at my code. For this project, I followed the [w3schools style guide](#https://www.w3schools.com/html/html5_syntax.asp). The given HTML and CSS files were already mostly compliant, but the following changes were made to improve style compliance:
 - [x] change indent size from 4 spaces to 2 spaces on both HTML and CSS files.
 - [x] set the viewport 
